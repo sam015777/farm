@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 30px;
+        }
+        #hex{
+            background-color: black;
+        }
+        .abc{
+            list-style-type:none;
+            display: inline;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .pqr{
+            color: white;
+            font-size: 35px;
+            text-decoration: none;
+        }
+        .pqr:hover{
+            color: yellow;
+            font-size: 40px;
+        }
+        #container{
+            height: 400px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .qq{
+            height: 400px;
+            width: 40%;
+            text-align: center;
+        }
+         #container2{
+            height: 500px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .aa{
+            height: 500px;
+            width: 400px;
+        }
+        #container5{
+            height: 600px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            background-color: lightgray;
+        }
+        .vv{
+            height: 600px;
+            width: 40%;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul id="hex">
+            <li class="abc">
+                <img src="https://th.bing.com/th/id/OIP.hJpGD3sTJdNzoYDDIdLX3AAAAA?rs=1&pid=ImgDetMain" height="100" width="150">
+            </li>
+            <li class="abc">
+                <a class="pqr" href="index.html">Home</a>
+            </li>
+            <li class="abc">
+                <a class="pqr" href="about us.html">About Us</a>
+            </li>
+            <li class="abc">
+                <a class="pqr" href="our cattle.html">Our Cattle</a>
+            </li>
+            <li class="abc">
+               <a class="pqr" href="gallery.html">Gallery</a>
+            </li>
+            <li class="abc">
+                <a class="pqr" href="FAQ.html">FAQ</a>
+            </li>
+            <li class="abc">
+                <a class="pqr" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <br/><br/>
+    <div style="height: 500px; width: 100%; background-size: cover; background-image: url('https://th.bing.com/th/id/OIP.NzWqGZ0Y-3ThNgDSGna84wAAAA?rs=1&pid=ImgDetMain');">
+    </div>
+    <br/><br/>
+    <div id="container">
+        <div class="qq">          
+            <h1>Our Story</h1>
+            <p>Local Family Farm</p>
+        </div>
+        <div class="qq">
+            <p>
+                Our Farm
+    Raising Cattle Responsibly Since 1928
+            </p>
+            <p>
+                We will help you with no matter what the cost is so do not 911 call us 123-456-7890
+            </p>
+        </div>
+    </div>
+    <br/><br/>
+    <div id="container2">
+        <div class="aa">
+            <img src="https://njmom.com/wp-content/uploads/2016/12/Children-feeding-cows-1-LR.jpg" height="400" width="500">
+        </div>
+        <div class="aa">
+            <img src="https://th.bing.com/th/id/OIP.K7lG3005eY-tEHwlxf61qgHaFx?rs=1&pid=ImgDetMain" height="400" width="500">
+        </div>
+    </div>
+    <br/>
+    <div id="container5">
+        <div class="vv">
+            <h1>Get in touch with<br/>
+                any questions</h1>
+
+            <p>Address</p>
+            <p>500 Terry Francine Street<br/>
+                San Francisco, CA 94158</p>
+
+            <p>Contact</p>
+            <p>123-456-7890<br/>
+                info@mysite.com</p>
+        </div>
+
+        <div class="vv" style="font-size: 40px;">
+            <form method="post" style="padding-top: 50px;">
+                First Name: <input type="text" placeholder="Enter your first name" size="50"><br/>
+                Last Name: <input type="text" placeholder="Enter your last name" size="50"><br/>
+                Email: <input type="email" placeholder="Enter your email" size="50"><br/>
+                Phone: <input type="tel" placeholder="enter your phone number" size="50"><br/>
+                Add a message: <textarea rows="4" cols="50" placeholder="Enter your message here">
+                </textarea>
+                <br/>
+                <center><input type="submit" value="submit" style="width: 150px; height: 50px;"></center>
+            </form> 
+        </div>
+    </div>
+    <div style="height: 500px; width: 100%;background-color: lightgray;text-align: center;">
+        <br/><br/>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d775901.8003629114!2d-81.29176945312499!3d40.56662730000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88346058e6f9d303%3A0x50ebe94e9ce85f7a!2sBarberry%20Farm!5e0!3m2!1sen!2sus!4v1720887931887!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</body>
+</html>
